@@ -33,3 +33,13 @@ Las eqtiquetas de HTML y **_Markdown_** puede anidarse
 </html>
 ```
 
+### Como poner un link
+[texto clicable](URL "Titulo opcional")
+[Pagina Web Joan23](https://www.fje.edu/ca/jesuites-bellvitge "Titulo opcional")
+
+
+### Como poner uan imagen
+
+![Texto alternativo](Ubicacion de la imagen "Titulo opcional")
+
+![Ronaldiño](C:\Repositorios\apuntes-asix1\ronaldiño.jpg "Titulo opcional")
