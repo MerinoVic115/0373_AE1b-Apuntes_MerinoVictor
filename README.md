@@ -42,4 +42,4 @@ Las eqtiquetas de HTML y **_Markdown_** puede anidarse
 
 ![Texto alternativo](Ubicacion de la imagen "Titulo opcional")
 
-![Ronaldiño](C:\Repositorios\apuntes-asix1\ronaldiño.jpg "Titulo opcional")
+![Ronaldiño](https://github.com/MerinoVic115/apuntes-asix1/blob/main/ronaldi%C3%B1o.jpg "Titulo opcional")
