@@ -38,8 +38,17 @@ Las eqtiquetas de HTML y **_Markdown_** puede anidarse
 [Pagina Web Joan23](https://www.fje.edu/ca/jesuites-bellvitge "Titulo opcional")
 
 
-### Como poner uan imagen
+### Como poner una imagen
 
 ![Texto alternativo](Ubicacion de la imagen "Titulo opcional")
 
 ![Ronaldiño](https://github.com/MerinoVic115/apuntes-asix1/blob/main/ronaldi%C3%B1o.jpg "Titulo opcional")
+
+
+|Titulo 1 | Titulo 2 | Titulo 3 |
+|----------|:--------------:|------------------:|
+|SMX2 |Curso 2423 |25 |
+|**ASIX1** |Curso 2425 |33 |
+|DAW2 |Curso 2425 |32 |
+
+
