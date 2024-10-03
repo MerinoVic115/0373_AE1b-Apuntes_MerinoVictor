@@ -19,3 +19,17 @@ Las eqtiquetas de HTML y **_Markdown_** puede anidarse
 * Primer punto de lista desordenada
 - Segundo punto de lista desordenada
 + Tercer punto de lista desordenada
+
+
+**Como mostrar codigo en un repositorio**
+```
+<html>
+	<head>
+		<title>Mi página de ejemplo</title>
+	</head>
+	<body>
+	Aquí va el contenido
+	</body>
+</html>
+```
+
