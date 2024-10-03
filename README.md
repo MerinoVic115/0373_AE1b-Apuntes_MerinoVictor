@@ -3,4 +3,19 @@
 ### Tercero nivel de encabezado
 #### Quarto nivel de encabezado
 ##### Quinto nivel de encabezado
-primera clase  de amrkdown
+
+Mis apuntes de *0373* del ciclo de _asix_ o **daw** __**2425**__
+
+Las eqtiquetas de HTML y **_Markdown_** puede anidarse
+
+1. Primer punto de la lista
+    1. Primer punto de la sublista
+    2. Segundo punto de la sublista
+
+2. Segundo punto de la lista
+    * 
+3. Tercer punto de la lista
+
+* Primer punto de lista desordenada
+- Segundo punto de lista desordenada
++ Tercer punto de lista desordenada
