@@ -75,7 +75,6 @@ Es algo que modifica la etiqueta. El atributo va en la etiqueta de inicio.
 ## Estructura de html:
 Esto es una estructura básica de HTML.
 ```
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 	<head>
 		<title>Título de ejemplo</title>
@@ -84,40 +83,63 @@ Esto es una estructura básica de HTML.
 		<p>¡Esta es mi web!</p>
 	</body>
 </html>
-
 ```
 
 ## Elementos de bloque y línea
-Elementos de bloque: Son grandes estructuras independientes que separan contenido. Ejemplos: <h1> - <h6> (encabezados), <p> (párrafo), <br> (salto de línea), <hr> (separador), <div>, <blockquote>, <pre>.
 
-Elementos de línea: Son pequeñas estructuras que representan trozos de texto dentro de los bloques. Ejemplos: <em> (cursiva), <strong> (negrita), <a> (hipervínculos), <span>, <code>.
+### Elementos de bloque
+Son grandes estructuras independientes que separan contenido.  
+Ejemplos: `<h1>` - `<h6>` (encabezados), `<p>` (párrafo), `<br>` (salto de línea), `<hr>` (separador), `<div>`, `<blockquote>`, `<pre>`.
+
+### Elementos de línea
+Son pequeñas estructuras que representan trozos de texto dentro de los bloques.  
+Ejemplos: `<em>` (cursiva), `<strong>` (negrita), `<a>` (hipervínculos), `<span>`, `<code>`.
+
+---
 
 ## Legibilidad y organización del código
-La legibilidad del código facilita su comprensión. Es fundamental que el código HTML sea 	claro y organizado.
-Puntos clave:
-**Usa comentarios.**
-**Aplica indentación del código.**
-**Organiza los archivos en directorios según sea necesario.**
+
+La legibilidad del código facilita su comprensión. Es fundamental que el código HTML sea claro y organizado.
+
+### Puntos clave:
+- **Usa comentarios.**
+- **Aplica indentación del código.**
+- **Organiza los archivos en directorios según sea necesario.**
+
+---
 
 ## Etiquetas básicas de HTML (Listas)
 
-### Listas desordenadas:
-Usan <ul> (unordered list) con símbolos como círculos, discos o cuadrados.
-Ejemplo: <ul type="disc">.
+### Listas desordenadas
+Usan `<ul>` (unordered list) con símbolos como círculos, discos o cuadrados.  
+**Ejemplo:** `<ul type="disc">`.
 
-### Listas ordenadas:
-Usan <ol> (ordered list) donde el orden importa (como recetas).
-Pueden ser numéricas o alfabéticas.
-Ejemplo: <ol type="1"> para números o <ol type="A"> para letras.
-Parámetro start=n para definir el inicio.
+### Listas ordenadas
+Usan `<ol>` (ordered list) donde el orden importa (como recetas).  
+Pueden ser numéricas o alfabéticas.  
+**Ejemplo:** `<ol type="1">` para números o `<ol type="A">` para letras.  
+**Parámetro:** `start=n` para definir el inicio.
 
-## Etiquetas basicas de html (Falta contenido por escribir)
+---
 
-### Rutas de HTML
-**Ruta absoluta:** pones la ruta entera ejemplo: C:\html\img1.jpg
-**Ruta relativa:** poner la ruta especifica la ruta de manera relativa, ejemplo: ..\imagenes\img2.jpg
+## Etiquetas básicas de HTML
 
-## Validacion HTML: 
-Para validar un html, se usa: [validator.w3.org](https://validator.w3.org/ "Titulo opcional")
+**Falta contenido por escribir.**
+
+## Rutas de HTML
+
+- **Ruta absoluta:** Incluye la ruta completa.  
+  **Ejemplo:** `C:\html\img1.jpg`
+  
+- **Ruta relativa:** Define la ruta desde la ubicación actual.  
+  **Ejemplo:** `..\imagenes\img2.jpg`
+
+---
+
+## Validación HTML
+
+Para validar un HTML, utiliza el siguiente enlace:  
+[validator.w3.org](https://validator.w3.org/ "Validador de HTML")
+
 
 
