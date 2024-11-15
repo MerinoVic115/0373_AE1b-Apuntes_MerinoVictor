@@ -1,4 +1,5 @@
-# apuntes-asix1
+# Apuntes-asix1
+# MarkDown
 ## Segundo nivel de encabezado
 ### Tercero nivel de encabezado
 #### Quarto nivel de encabezado
@@ -51,4 +52,74 @@ Las eqtiquetas de HTML y **_Markdown_** puede anidarse
 |**ASIX1** |Curso 2425 |33 |
 |DAW2 |Curso 2425 |32 |
 
+
+# HTML
+
+## Introducción a html
+
+HTML (HyperText Markup Language), es un **lenguaje de marcas**, es lo mas importante de internet ya que sin html no se vería nada.
+HTML define la estructura y el contenido, tiene una estructura lógica y es fácil de interpretar y entender.
+No se dedica a ver como se interactúa con el contenido (javascript y etc).
+Los elementos de html son bloques de construcción de las paginas web.
+HyperText: texto que enlaza otros contenidos
+Markup: Todas las webs están construidas en base de etiquetas
+Language: HTML es un lenguaje, pero no es un lenguaje de programación, no tiene estructuras de lenguaje de programación, bucles, condiciones, funciones y etc.
+
+
+## Elementos: 
+	El contenido esta entre dos etiquetas.
+
+## Atributos: 
+	Es algo que modifica la etiqueta. El atributo va en la etiqueta de inicio.
+
+## Estructura de html:
+ Esto es una estructura básica de HTML.
+	```
+	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+	<html>
+	<head>
+		<title>Título de ejemplo</title>
+	</head>
+	<body>
+		<p>¡Esta es mi web!</p>
+	</body>
+	</html>
+
+	```
+
+## Elementos de bloque y línea
+	Elementos de bloque: Son grandes estructuras independientes que separan contenido. Ejemplos: <h1> - <h6> (encabezados), <p> (párrafo), <br> (salto de línea), <hr> (separador), <div>, <blockquote>, <pre>.
+
+	Elementos de línea: Son pequeñas estructuras que representan trozos de texto dentro de los bloques. Ejemplos: <em> (cursiva), <strong> (negrita), <a> (hipervínculos), <span>, <code>.
+
+## Legibilidad y organización del código
+	La legibilidad del código facilita su comprensión. Es fundamental que el código HTML sea 	claro y organizado.
+Puntos clave:
+**Usa comentarios.**
+**Aplica indentación del código.**
+**Organiza los archivos en directorios según sea necesario.**
+
+## Etiquetas básicas de HTML (Listas)
+
+### Listas desordenadas:
+	Usan <ul> (unordered list) con símbolos como círculos, discos o cuadrados.
+	Ejemplo: <ul type="disc">.
+
+### Listas ordenadas:
+	Usan <ol> (ordered list) donde el orden importa (como recetas).
+	Pueden ser numéricas o alfabéticas.
+	Ejemplo: <ol type="1"> para números o <ol type="A"> para letras.
+	Parámetro start=n para definir el inicio.
+
+## Etiquetas basicas de html (Falta contenido por escribir)
+
+### Rutas de HTML
+	**Ruta absoluta:** pones la ruta entera ejemplo: C:\html\img1.jpg
+	**Ruta relativa:** poner la ruta especifica la ruta de manera relativa, ejemplo: ..\imagenes\img2.jpg
+
+## Validacion HTML: 
+	Para validar un html, se usa: validator.w3.org 
+
+	[texto clicable](URL "Titulo opcional")
+[validator.w3.org](validator.w3.org "Titulo opcional")
 
