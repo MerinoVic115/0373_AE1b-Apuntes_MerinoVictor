@@ -145,12 +145,12 @@ Pueden ser numéricas o alfabéticas.
 ## Rutas de HTML
 
 - **Ruta absoluta:** Incluye la ruta completa.  
-  **Ejemplo:** `C:\html\img1.jpg`
+  **Ejemplo:** C:\html\img1.jpg
   
 - **Ruta relativa:** Define la ruta desde la ubicación actual.  
-  **Ejemplo:** `..\imagenes\img2.jpg`
+  **Ejemplo:** ..\imagenes\img2.jpg
 
----
+
 
 ## Validación HTML
 
@@ -170,7 +170,7 @@ Ventaja del HTML semántico: Proporciona información clara sobre el contenido, 
 
 Ejemplos de elementos semánticos:
 
-<header>, <footer>, <article>, <section>, <nav>, <figure>.
+**<header>**, **<footer>**, **<article>**, **<section>**, **<nav>**, **<figure>**.
 
 
 ## Formulario
@@ -187,19 +187,19 @@ enctype: Define como se codifican los datos
 etiqueta *imput*: 
 	Se usa para crear diversos campos interactivos.
 
-## ## Etiqueta `<input>`
+## ## Etiqueta <input>
 
-La etiqueta `<input>` se utiliza para crear diversos tipos de campos interactivos en un formulario. Se pueden usar para entradas de texto, contraseñas, correos electrónicos, casillas de verificación, entre otros.
+La etiqueta <input> se utiliza para crear diversos tipos de campos interactivos en un formulario. Se pueden usar para entradas de texto, contraseñas, correos electrónicos, casillas de verificación, entre otros.
 
-### Atributos comunes de `<input>`:
-- **`type`**: Define el tipo de entrada que se debe mostrar (ej. `text`, `password`, `email`, etc.).
-- **`id`**: Identificador único para asociar etiquetas `<label>` con el campo de entrada.
-- **`name`**: Nombre del campo de entrada, utilizado al enviar el formulario para identificar el dato.
-- **`value`**: Valor predeterminado que tendrá el campo.
-- **`placeholder`**: Texto que aparece en el campo cuando está vacío, indicando el tipo de dato que se debe ingresar.
-- **`required`**: Indica que el campo debe completarse antes de enviar el formulario.
-- **`disabled`**: Desactiva el campo, evitando que el usuario interactúe con él.
-- **`readonly`**: Hace que el campo sea solo de lectura, evitando modificaciones.
+### Atributos comunes de <input>:
+- **type**: Define el tipo de entrada que se debe mostrar (ej. text, password, email, etc.).
+- **id**: Identificador único para asociar etiquetas <label> con el campo de entrada.
+- **name**: Nombre del campo de entrada, utilizado al enviar el formulario para identificar el dato.
+- **value**: Valor predeterminado que tendrá el campo.
+- **placeholder**: Texto que aparece en el campo cuando está vacío, indicando el tipo de dato que se debe ingresar.
+- **required**: Indica que el campo debe completarse antes de enviar el formulario.
+- **disabled**: Desactiva el campo, evitando que el usuario interactúe con él.
+- **readonly**: Hace que el campo sea solo de lectura, evitando modificaciones.
 
 ### Ejemplo:
 
@@ -210,7 +210,7 @@ La etiqueta `<input>` se utiliza para crear diversos tipos de campos interactivo
 <input type="checkbox" />
 ```
 
-## Etiqueta <input type="radio">
+## Etiqueta **<input type="radio">**
 
 Se usa para los botones de opción, permite seleccionar solo una opción dentro de un grupo de opciones con el mismo atributo.
 
@@ -225,7 +225,7 @@ Se usa para los botones de opción, permite seleccionar solo una opción dentro 
 </form>
 ```
 
-## Etiqueta <input type="checkbox">
+## Etiqueta **<input type="checkbox">**
 
 Se usa para los botones de verificación, permite seleccionar múltiples opciones dentro de un formulario.
 
@@ -240,19 +240,20 @@ Se usa para los botones de verificación, permite seleccionar múltiples opcione
 </form>
 ```
 
-## Etiqueta <textarea>
+## Etiqueta **<textarea>**
 
 La etiqueta <textarea> se usa para crear áreas de texto donde los usuarios pueden ingresar múltiples líneas. Es especialmente útil para mensajes largos o descripciones detalladas.
 
 Atributos comunes de <textarea>:
-name: Especifica el nombre del control que se usará al enviar el formulario.
-id: Identificador único del elemento para asociar con etiquetas <label>.
-rows: Define el número de líneas visibles en el área de texto.
-cols: Define el número de caracteres visibles en cada línea.
-placeholder: Texto visible cuando el campo está vacío, proporcionando una pista sobre el dato esperado.
-required: Indica que el campo debe completarse antes de enviar el formulario.
-readonly: Hace que el área de texto sea solo de lectura.
-disabled: Desactiva el campo, evitando la interacción del usuario.
+
+- name: Especifica el nombre del control que se usará al enviar el formulario.
+- id: Identificador único del elemento para asociar con etiquetas <label>.
+- rows: Define el número de líneas visibles en el área de texto.
+- cols: Define el número de caracteres visibles en cada línea.
+- placeholder: Texto visible cuando el campo está vacío, proporcionando una pista sobre el dato esperado.
+- required: Indica que el campo debe completarse antes de enviar el formulario.
+- readonly: Hace que el área de texto sea solo de lectura.
+- disabled: Desactiva el campo, evitando la interacción del usuario.
 
 ### Ejemplo
 ```
