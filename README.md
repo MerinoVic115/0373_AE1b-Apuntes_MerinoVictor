@@ -137,10 +137,11 @@ Pueden ser numéricas o alfabéticas.
 
 **Listas de definición:** Enumeran términos con sus definiciones.
 **Formadas por dos elementos:** el término y su definición.
+
 **Etiquetas usadas:**
-*<dl>*: Define el inicio y fin de la lista (definition list).
-*<dt>*: Representa el término (definition term).
-*<dd>*: Contiene la definición del término (definition description).
+- dl: Define el inicio y fin de la lista (definition list).
+- dt: Representa el término (definition term).
+- dd: Contiene la definición del término (definition description).
 
 ## Rutas de HTML
 
@@ -160,9 +161,9 @@ Para validar un HTML, utiliza el siguiente enlace:
 
 ## Elementos semánticos en html 5:
 
-span: permite agrupar contenido en línea.
+`<span>`: permite agrupar contenido en línea.
 
-div: permite guardar otras etiquetas. 
+`<div>`: permite guardar otras etiquetas. 
 
 HTML semántico: Describe el contenido con un significado claro y estructurado.
 
@@ -187,9 +188,9 @@ Cada formulario debe de tener atributo name, con lo cual se identifica el dato.
 Apertura y cierre: form
 
 Atributo común: 
-action: Define la url donde se enviará los datos
-method: especifica el método de envio de datos
-enctype: Define como se codifican los datos
+`<action>`: Define la url donde se enviará los datos
+`<method>`: especifica el método de envio de datos
+`<enctype>`: Define como se codifican los datos
 
 etiqueta *imput*: 
 	Se usa para crear diversos campos interactivos.
@@ -217,7 +218,7 @@ La etiqueta input se utiliza para crear diversos tipos de campos interactivos en
 <input type="checkbox" />
 ```
 
-### Etiqueta **<type="radio">**
+### Etiqueta `<type="radio">`
 
 Se usa para los botones de opción, permite seleccionar solo una opción dentro de un grupo de opciones con el mismo atributo.
 
@@ -232,7 +233,7 @@ Se usa para los botones de opción, permite seleccionar solo una opción dentro 
 </form>
 ```
 
-### Etiqueta **<type="checkbox">**
+### Etiqueta `<type="checkbox">`
 
 Se usa para los botones de verificación, permite seleccionar múltiples opciones dentro de un formulario.
 
@@ -252,7 +253,7 @@ Se usa para los botones de verificación, permite seleccionar múltiples opcione
 
 La etiqueta textarea se usa para crear áreas de texto donde los usuarios pueden ingresar múltiples líneas. Es especialmente útil para mensajes largos o descripciones detalladas.
 
-Atributos comunes de <textarea>:
+Atributos comunes de `<textarea>`:
 
 - name: Especifica el nombre del control que se usará al enviar el formulario.
 - id: Identificador único del elemento para asociar con etiquetas <label>.
