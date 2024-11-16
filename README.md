@@ -160,24 +160,31 @@ Para validar un HTML, utiliza el siguiente enlace:
 
 ## Elementos semánticos en html 5:
 
-<span> permite agrupar contenido en línea.
-<div> permite guardar otras etiquetas. 
+span: permite agrupar contenido en línea.
+
+div: permite guardar otras etiquetas. 
+
 HTML semántico: Describe el contenido con un significado claro y estructurado.
 
-Elementos como <span> (contenido en línea) y <div> (contenido en bloque) no aportan valor semántico, solo estructuran sin indicar el tipo de contenido.
+Elementos como span (contenido en línea) y div (contenido en bloque) no aportan valor semántico, solo estructuran sin indicar el tipo de contenido.
 
 Ventaja del HTML semántico: Proporciona información clara sobre el contenido, facilitando la comprensión y accesibilidad.
 
 Ejemplos de elementos semánticos:
 
-**<header>**, **<footer>**, **<article>**, **<section>**, **<nav>**, **<figure>**.
+- **header** 
+- **footer**
+- **article** 
+- **section** 
+- **nav** 
+- **figure**.
 
 
 ## Formulario
 El formulario es para recopilar datos del usuario y contiene varios elementos (nombre, password y etc).
 
 Cada formulario debe de tener atributo name, con lo cual se identifica el dato.
-Apertura y cierre: <form>
+Apertura y cierre: form
 
 Atributo común: 
 action: Define la url donde se enviará los datos
@@ -187,13 +194,13 @@ enctype: Define como se codifican los datos
 etiqueta *imput*: 
 	Se usa para crear diversos campos interactivos.
 
-## ## Etiqueta input
+### Etiqueta input
 
-La etiqueta <input> se utiliza para crear diversos tipos de campos interactivos en un formulario. Se pueden usar para entradas de texto, contraseñas, correos electrónicos, casillas de verificación, entre otros.
+La etiqueta input se utiliza para crear diversos tipos de campos interactivos en un formulario. Se pueden usar para entradas de texto, contraseñas, correos electrónicos, casillas de verificación, entre otros.
 
 ### Atributos comunes de input:
 - **type**: Define el tipo de entrada que se debe mostrar (ej. text, password, email, etc.).
-- **id**: Identificador único para asociar etiquetas <label> con el campo de entrada.
+- **id**: Identificador único para asociar etiquetas label con el campo de entrada.
 - **name**: Nombre del campo de entrada, utilizado al enviar el formulario para identificar el dato.
 - **value**: Valor predeterminado que tendrá el campo.
 - **placeholder**: Texto que aparece en el campo cuando está vacío, indicando el tipo de dato que se debe ingresar.
@@ -201,7 +208,7 @@ La etiqueta <input> se utiliza para crear diversos tipos de campos interactivos 
 - **disabled**: Desactiva el campo, evitando que el usuario interactúe con él.
 - **readonly**: Hace que el campo sea solo de lectura, evitando modificaciones.
 
-### Ejemplo:
+#### Ejemplo:
 
 ```
 <input type="text" placeholder="Escribe tu nombre" />
@@ -210,7 +217,7 @@ La etiqueta <input> se utiliza para crear diversos tipos de campos interactivos 
 <input type="checkbox" />
 ```
 
-## Etiqueta **<type="radio">**
+### Etiqueta **<type="radio">**
 
 Se usa para los botones de opción, permite seleccionar solo una opción dentro de un grupo de opciones con el mismo atributo.
 
@@ -225,10 +232,11 @@ Se usa para los botones de opción, permite seleccionar solo una opción dentro 
 </form>
 ```
 
-## Etiqueta **<type="checkbox">**
+### Etiqueta **<type="checkbox">**
 
 Se usa para los botones de verificación, permite seleccionar múltiples opciones dentro de un formulario.
 
+#### Ejemplo:
 ```
 <form action="/enviar-datos" method="POST">
   <fieldset>
@@ -240,9 +248,9 @@ Se usa para los botones de verificación, permite seleccionar múltiples opcione
 </form>
 ```
 
-## Etiqueta **<textarea>**
+### Etiqueta **<textarea>**
 
-La etiqueta <textarea> se usa para crear áreas de texto donde los usuarios pueden ingresar múltiples líneas. Es especialmente útil para mensajes largos o descripciones detalladas.
+La etiqueta textarea se usa para crear áreas de texto donde los usuarios pueden ingresar múltiples líneas. Es especialmente útil para mensajes largos o descripciones detalladas.
 
 Atributos comunes de <textarea>:
 
@@ -255,7 +263,7 @@ Atributos comunes de <textarea>:
 - readonly: Hace que el área de texto sea solo de lectura.
 - disabled: Desactiva el campo, evitando la interacción del usuario.
 
-### Ejemplo
+#### Ejemplo
 ```
 <form action="/enviar-datos" method="POST">
   <label for="comentario">Deja tu comentario:</label>
