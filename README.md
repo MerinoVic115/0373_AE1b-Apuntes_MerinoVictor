@@ -187,11 +187,11 @@ enctype: Define como se codifican los datos
 etiqueta *imput*: 
 	Se usa para crear diversos campos interactivos.
 
-## ## Etiqueta <input>
+## ## Etiqueta input
 
 La etiqueta <input> se utiliza para crear diversos tipos de campos interactivos en un formulario. Se pueden usar para entradas de texto, contraseñas, correos electrónicos, casillas de verificación, entre otros.
 
-### Atributos comunes de <input>:
+### Atributos comunes de input:
 - **type**: Define el tipo de entrada que se debe mostrar (ej. text, password, email, etc.).
 - **id**: Identificador único para asociar etiquetas <label> con el campo de entrada.
 - **name**: Nombre del campo de entrada, utilizado al enviar el formulario para identificar el dato.
@@ -210,7 +210,7 @@ La etiqueta <input> se utiliza para crear diversos tipos de campos interactivos 
 <input type="checkbox" />
 ```
 
-## Etiqueta **<input type="radio">**
+## Etiqueta **<type="radio">**
 
 Se usa para los botones de opción, permite seleccionar solo una opción dentro de un grupo de opciones con el mismo atributo.
 
@@ -225,7 +225,7 @@ Se usa para los botones de opción, permite seleccionar solo una opción dentro 
 </form>
 ```
 
-## Etiqueta **<input type="checkbox">**
+## Etiqueta **<type="checkbox">**
 
 Se usa para los botones de verificación, permite seleccionar múltiples opciones dentro de un formulario.
 
