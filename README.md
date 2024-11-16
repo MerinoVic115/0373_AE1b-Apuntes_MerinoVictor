@@ -175,13 +175,89 @@ Ejemplos de elementos semánticos:
 
 ## Formulario
 El formulario es para recopilar datos del usuario y contiene varios elementos (nombre, password y etc).
+
 Cada formulario debe de tener atributo name, con lo cual se identifica el dato.
 Apertura y cierre: <form>
+
 Atributo común: 
-		action: Define la url donde se enviará los datos
-		method: especifica el método de envio de datos
-		enctype: Define como se codifican los datos
+action: Define la url donde se enviará los datos
+method: especifica el método de envio de datos
+enctype: Define como se codifican los datos
 
 etiqueta *imput*: 
 	Se usa para crear diversos campos interactivos.
 
+## ## Etiqueta `<input>`
+
+La etiqueta `<input>` se utiliza para crear diversos tipos de campos interactivos en un formulario. Se pueden usar para entradas de texto, contraseñas, correos electrónicos, casillas de verificación, entre otros.
+
+### Atributos comunes de `<input>`:
+- **`type`**: Define el tipo de entrada que se debe mostrar (ej. `text`, `password`, `email`, etc.).
+- **`id`**: Identificador único para asociar etiquetas `<label>` con el campo de entrada.
+- **`name`**: Nombre del campo de entrada, utilizado al enviar el formulario para identificar el dato.
+- **`value`**: Valor predeterminado que tendrá el campo.
+- **`placeholder`**: Texto que aparece en el campo cuando está vacío, indicando el tipo de dato que se debe ingresar.
+- **`required`**: Indica que el campo debe completarse antes de enviar el formulario.
+- **`disabled`**: Desactiva el campo, evitando que el usuario interactúe con él.
+- **`readonly`**: Hace que el campo sea solo de lectura, evitando modificaciones.
+
+### Ejemplo:
+
+```
+<input type="text" placeholder="Escribe tu nombre" />
+<input type="password" />
+<input type="email" />
+<input type="checkbox" />
+```
+
+## Etiqueta <input type="radio">
+
+Se usa para los botones de opción, permite seleccionar solo una opción dentro de un grupo de opciones con el mismo atributo.
+
+```
+<form action="/enviar-datos" method="POST">
+  <fieldset>
+    <legend>Selecciona tu género musical favorito:</legend>
+    <input type="radio" name="pais" value="espana"> España<br>
+    <input type="radio" name="pais" value="egipto"> Egipto<br>
+    <input type="radio" name="pais" value="kazajistan"> Kazajistán<br>
+  </fieldset>
+</form>
+```
+
+## Etiqueta <input type="checkbox">
+
+Se usa para los botones de verificación, permite seleccionar múltiples opciones dentro de un formulario.
+
+```
+<form action="/enviar-datos" method="POST">
+  <fieldset>
+    <legend>Selecciona tus intereses:</legend>
+    <input type="checkbox" name="intereses" value="deportes"> Deportes<br>
+    <input type="checkbox" name="intereses" value="musica"> Música<br>
+    <input type="checkbox" name="intereses" value="lectura"> Lectura<br>
+  </fieldset>
+</form>
+```
+
+## Etiqueta <textarea>
+
+La etiqueta <textarea> se usa para crear áreas de texto donde los usuarios pueden ingresar múltiples líneas. Es especialmente útil para mensajes largos o descripciones detalladas.
+
+Atributos comunes de <textarea>:
+name: Especifica el nombre del control que se usará al enviar el formulario.
+id: Identificador único del elemento para asociar con etiquetas <label>.
+rows: Define el número de líneas visibles en el área de texto.
+cols: Define el número de caracteres visibles en cada línea.
+placeholder: Texto visible cuando el campo está vacío, proporcionando una pista sobre el dato esperado.
+required: Indica que el campo debe completarse antes de enviar el formulario.
+readonly: Hace que el área de texto sea solo de lectura.
+disabled: Desactiva el campo, evitando la interacción del usuario.
+
+### Ejemplo
+```
+<form action="/enviar-datos" method="POST">
+  <label for="comentario">Deja tu comentario:</label>
+  <textarea id="comentario" name="comentario" rows="4" cols="50" placeholder="Escribe tu comentario aquí..." required></textarea>
+</form>
+```
