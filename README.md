@@ -52,6 +52,17 @@ Las eqtiquetas de HTML y **_Markdown_** puede anidarse
 |**ASIX1** |Curso 2425 |33 |
 |DAW2 |Curso 2425 |32 |
 
+# Comandos Github
+
+| **Comando**                     | **Descripción**                                                                                     |
+|             ------------------- |-----------------------------------------------------------------------------------------------------|
+| `git init`                      | Inicializa un nuevo repositorio Git en el directorio actual.                                        |
+| `git clone <URL>`               | Clona un repositorio existente desde una URL.                                                       |
+| `git add .`                     | Agrega todos los cambios al área de preparación.                                                    |
+| `git commit -m "mensaje"`       | Guarda los cambios en el historial del repositorio con un mensaje.                                  |
+| `git push`                      | Sube los cambios al repositorio remoto.                                                             |
+| `git pull`                      | Descarga y fusiona los cambios del repositorio remoto al local.                                     |
+
 
 # HTML
 
@@ -124,7 +135,12 @@ Pueden ser numéricas o alfabéticas.
 
 ## Etiquetas básicas de HTML
 
-**Falta contenido por escribir.**
+**Listas de definición:** Enumeran términos con sus definiciones.
+**Formadas por dos elementos:** el término y su definición.
+**Etiquetas usadas:**
+*<dl>*: Define el inicio y fin de la lista (definition list).
+*<dt>*: Representa el término (definition term).
+*<dd>*: Contiene la definición del término (definition description).
 
 ## Rutas de HTML
 
@@ -142,4 +158,30 @@ Para validar un HTML, utiliza el siguiente enlace:
 [validator.w3.org](https://validator.w3.org/ "Validador de HTML")
 
 
+## Elementos semánticos en html 5:
+
+<span> permite agrupar contenido en línea.
+<div> permite guardar otras etiquetas. 
+HTML semántico: Describe el contenido con un significado claro y estructurado.
+
+Elementos como <span> (contenido en línea) y <div> (contenido en bloque) no aportan valor semántico, solo estructuran sin indicar el tipo de contenido.
+
+Ventaja del HTML semántico: Proporciona información clara sobre el contenido, facilitando la comprensión y accesibilidad.
+
+Ejemplos de elementos semánticos:
+
+<header>, <footer>, <article>, <section>, <nav>, <figure>.
+
+
+## Formulario
+El formulario es para recopilar datos del usuario y contiene varios elementos (nombre, password y etc).
+Cada formulario debe de tener atributo name, con lo cual se identifica el dato.
+Apertura y cierre: <form>
+Atributo común: 
+		action: Define la url donde se enviará los datos
+		method: especifica el método de envio de datos
+		enctype: Define como se codifican los datos
+
+etiqueta *imput*: 
+	Se usa para crear diversos campos interactivos.
 
