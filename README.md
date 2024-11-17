@@ -271,3 +271,61 @@ Atributos comunes de `<textarea>`:
   <textarea id="comentario" name="comentario" rows="4" cols="50" placeholder="Escribe tu comentario aquí..." required></textarea>
 </form>
 ```
+
+### Etiqueta <select>
+
+Se usa para crear menús desplegables en los formularios. Permite al usuario seleccionar una opción de una lista de opciones predefinidas.
+
+Atributos comunes:
+- name: Especifica el nombre del control que se usará al enviar el formulario. Este nombre se enviará al servidor como clave en el par nombre-valor.
+- id: Identificador único del elemento, que puede usarse para asociarlo con una etiqueta <label>.
+- size: Define el número de opciones visibles en la lista desplegable sin necesidad de desplazarse. Si se omite, se muestra una lista simple.
+- multiple: Permite seleccionar varias opciones a la vez. Si se especifica, el menú se convierte en una lista múltiple.
+- value: Indica el valor de la opción.
+
+#### Ejemplo:
+```
+<select id="pais" name="pais" required>
+  <option value="">--Selecciona un país--</option>
+  <option value="espana">España</option>
+  <option value="mexico">México</option>
+  <option value="argentina">Argentina</option>
+  <option value="colombia">Colombia</option>
+</select>
+```
+
+### Etiqueta <button>
+Descripción:
+Se utiliza para crear varios tipos de botones interactivos en un formulario o una página web. A diferencia de la etiqueta <input type="submit">, el contenido del botón <button> puede incluir texto, imágenes o incluso HTML adicional.
+
+Atributos comunes:
+- type: Define el tipo de botón. Los valores más comunes son:
+- submit: Envía el formulario cuando se hace clic en él. Es el valor predeterminado.
+- button: Crea un botón sin una acción predeterminada (generalmente para JavaScript).
+- name: Define el nombre del botón que se enviará con los datos del formulario si el botón tiene el atributo type="submit".
+- disabled: Desactiva el botón, impidiendo que se haga clic en él.
+
+#### Ejemplo:
+
+```
+<form action="/enviar-datos" method="POST">
+  <!-- Botón de envío (submit) -->
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre" required>
+  <button type="submit" name="enviar" value="enviar-datos">Enviar</button>
+
+  <!-- Botón de tipo reset -->
+  <button type="reset">Restablecer</button>
+
+  <!-- Botón de tipo button -->
+  <button type="button" onclick="alert('Has hecho clic en el botón')">Haz clic aquí</button>
+
+  <!-- Botón deshabilitado -->
+  <button type="submit" disabled>Botón deshabilitado</button>
+</form>
+```
+
+
+
+
+
