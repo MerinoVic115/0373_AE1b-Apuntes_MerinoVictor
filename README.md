@@ -249,7 +249,7 @@ Se usa para los botones de verificación, permite seleccionar múltiples opcione
 </form>
 ```
 
-### Etiqueta **<textarea>**
+### Etiqueta `<textarea>`
 
 La etiqueta textarea se usa para crear áreas de texto donde los usuarios pueden ingresar múltiples líneas. Es especialmente útil para mensajes largos o descripciones detalladas.
 
