@@ -1,26 +1,24 @@
-# 📘 Apuntes
-
-  Victor Merino Saceda ASIX1
+# 📘 Apuntes-Victor_Merino_Saceda_ASIX1
 
 ## Índice
 
-- [📘 Apuntes](#-apuntes)
-  - [Índice](#índice)
-  - [🐙 GITHUB](#-github)
-    - [Crear un repositorio](#crear-un-repositorio)
-    - [🔧 Comandos GIT](#-comandos-git)
-    - [🛠 Otros comandos útiles](#-otros-comandos-útiles)
-  - [📝 MARKDOWN](#-markdown)
-    - [Encabezados](#encabezados)
-    - [Enlaces](#enlaces)
-    - [Imágenes](#imágenes)
-    - [HTML en Markdown](#html-en-markdown)
-  - [🌐 HTML](#-html)
-    - [📄 Fichero HTML](#-fichero-html)
-    - [🧩 Etiquetas Generales](#-etiquetas-generales)
-    - [🔤 Etiquetas para body](#-etiquetas-para-body)
-    - [🧱 Bloques de contenido](#-bloques-de-contenido)
-  - [🎨 CSS](#-css)
+- [📘 Apuntes-Victor\_Merino\_Saceda\_ASIX1](#-apuntes-victor_merino_saceda_asix1)
+	- [Índice](#índice)
+	- [🐙 GITHUB](#-github)
+		- [Crear un repositorio](#crear-un-repositorio)
+		- [🔧 Comandos GIT](#-comandos-git)
+		- [🛠 Otros comandos útiles](#-otros-comandos-útiles)
+	- [📝 MARKDOWN](#-markdown)
+		- [Encabezados](#encabezados)
+		- [Enlaces](#enlaces)
+		- [Imágenes](#imágenes)
+		- [HTML en Markdown](#html-en-markdown)
+	- [🌐 HTML](#-html)
+		- [📄 Fichero HTML](#-fichero-html)
+		- [🧩 Etiquetas Generales](#-etiquetas-generales)
+		- [🔤 Etiquetas para body](#-etiquetas-para-body)
+		- [🧱 Bloques de contenido](#-bloques-de-contenido)
+	- [🎨 CSS](#-css)
 
 ---
 
