@@ -1,273 +1,252 @@
-# Apuntes-asix1
-# MarkDown
-## Segundo nivel de encabezado
-### Tercero nivel de encabezado
-#### Quarto nivel de encabezado
-##### Quinto nivel de encabezado
+# 📘 Apuntes
 
-Mis apuntes de *0373* del ciclo de _asix_ o **daw** __**2425**__
+  Victor Merino Saceda ASIX1
 
-Las eqtiquetas de HTML y **_Markdown_** puede anidarse
+## Índice
 
-1. Primer punto de la lista
-    1. Primer punto de la sublista
-    2. Segundo punto de la sublista
-
-2. Segundo punto de la lista
-    * 
-3. Tercer punto de la lista
-
-* Primer punto de lista desordenada
-- Segundo punto de lista desordenada
-+ Tercer punto de lista desordenada
-
-
-**Como mostrar codigo en un repositorio**
-```
-<html>
-	<head>
-		<title>Mi página de ejemplo</title>
-	</head>
-	<body>
-	Aquí va el contenido
-	</body>
-</html>
-```
-
-### Como poner un link
-[texto clicable](URL "Titulo opcional")
-[Pagina Web Joan23](https://www.fje.edu/ca/jesuites-bellvitge "Titulo opcional")
-
-
-### Como poner una imagen
-
-![Texto alternativo](Ubicacion de la imagen "Titulo opcional")
-
-![Ronaldiño](https://github.com/MerinoVic115/apuntes-asix1/blob/main/ronaldi%C3%B1o.jpg "Titulo opcional")
-
-
-|Titulo 1 | Titulo 2 | Titulo 3 |
-|----------|:--------------:|------------------:|
-|SMX2 |Curso 2423 |25 |
-|**ASIX1** |Curso 2425 |33 |
-|DAW2 |Curso 2425 |32 |
-
-# Comandos Github
-
-| **Comando**                     | **Descripción**                                                                                     |
-|             ------------------- |-----------------------------------------------------------------------------------------------------|
-| `git init`                      | Inicializa un nuevo repositorio Git en el directorio actual.                                        |
-| `git clone <URL>`               | Clona un repositorio existente desde una URL.                                                       |
-| `git add .`                     | Agrega todos los cambios al área de preparación.                                                    |
-| `git commit -m "mensaje"`       | Guarda los cambios en el historial del repositorio con un mensaje.                                  |
-| `git push`                      | Sube los cambios al repositorio remoto.                                                             |
-| `git pull`                      | Descarga y fusiona los cambios del repositorio remoto al local.                                     |
-
-
-# HTML
-
-## Introducción a html
-
-HTML (HyperText Markup Language), es un **lenguaje de marcas**, es lo mas importante de internet ya que sin html no se vería nada.
-HTML define la estructura y el contenido, tiene una estructura lógica y es fácil de interpretar y entender.
-No se dedica a ver como se interactúa con el contenido (javascript y etc).
-Los elementos de html son bloques de construcción de las paginas web.
-HyperText: texto que enlaza otros contenidos
-Markup: Todas las webs están construidas en base de etiquetas
-Language: HTML es un lenguaje, pero no es un lenguaje de programación, no tiene estructuras de lenguaje de programación, bucles, condiciones, funciones y etc.
-
-
-## Elementos: 
-El contenido esta entre dos etiquetas.
-
-## Atributos: 
-Es algo que modifica la etiqueta. El atributo va en la etiqueta de inicio.
-
-## Estructura de html:
-Esto es una estructura básica de HTML.
-```
-<html>
-	<head>
-		<title>Título de ejemplo</title>
-	</head>
-	<body>
-		<p>¡Esta es mi web!</p>
-	</body>
-</html>
-```
-
-## Elementos de bloque y línea
-
-### Elementos de bloque
-Son grandes estructuras independientes que separan contenido.  
-Ejemplos: `<h1>` - `<h6>` (encabezados), `<p>` (párrafo), `<br>` (salto de línea), `<hr>` (separador), `<div>`, `<blockquote>`, `<pre>`.
-
-### Elementos de línea
-Son pequeñas estructuras que representan trozos de texto dentro de los bloques.  
-Ejemplos: `<em>` (cursiva), `<strong>` (negrita), `<a>` (hipervínculos), `<span>`, `<code>`.
+- [📘 Apuntes](#-apuntes)
+  - [Índice](#índice)
+  - [🐙 GITHUB](#-github)
+    - [Crear un repositorio](#crear-un-repositorio)
+    - [🔧 Comandos GIT](#-comandos-git)
+    - [🛠 Otros comandos útiles](#-otros-comandos-útiles)
+  - [📝 MARKDOWN](#-markdown)
+    - [Encabezados](#encabezados)
+    - [Enlaces](#enlaces)
+    - [Imágenes](#imágenes)
+    - [HTML en Markdown](#html-en-markdown)
+  - [🌐 HTML](#-html)
+    - [📄 Fichero HTML](#-fichero-html)
+    - [🧩 Etiquetas Generales](#-etiquetas-generales)
+    - [🔤 Etiquetas para body](#-etiquetas-para-body)
+    - [🧱 Bloques de contenido](#-bloques-de-contenido)
+  - [🎨 CSS](#-css)
 
 ---
 
-## Legibilidad y organización del código
+## 🐙 GITHUB
 
-La legibilidad del código facilita su comprensión. Es fundamental que el código HTML sea claro y organizado.
+**GITHUB** es una herramienta para realizar **copias de seguridad (backups)** de tu web o programa. Puedes conectarte mediante el inicio de sesión y la creación de repositorios.
 
-### Puntos clave:
-- **Usa comentarios.**
-- **Aplica indentación del código.**
-- **Organiza los archivos en directorios según sea necesario.**
+### Crear un repositorio
+
+1. Ve a **Tu perfil > Tus repositorios**.
+2. Haz clic en el botón verde **New** para crear un repositorio.
+
+![Interfaz de GitHub](./img/interfaz_github.png)
+![Botón New](./img/boton_new.png)
+
+Aparecerá un formulario donde debes rellenar los siguientes campos:
+
+![Formulario creación de repositorio](./img/creacion_rep.png)
+
+| Propiedad              | Descripción                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| **Owner**              | Propietario del repositorio                                                 |
+| **Repository name**    | Nombre que asignas al repositorio                                           |
+| **Description**        | Descripción del repositorio                                                 |
+| **Public or Private**  | Define si el repositorio será público o privado                             |
+| **Add a README file**  | Opción recomendada para estructurar e informar sobre el repositorio         |
+
+[🔝 Volver al índice](#índice)
 
 ---
 
-## Etiquetas básicas de HTML (Listas)
+### 🔧 Comandos GIT
 
-### Listas desordenadas
-Usan `<ul>` (unordered list) con símbolos como círculos, discos o cuadrados.  
-**Ejemplo:** `<ul type="disc">`.
+Una vez creado el repositorio, debemos conectarnos a él desde la carpeta que queremos subir.
 
-### Listas ordenadas
-Usan `<ol>` (ordered list) donde el orden importa (como recetas).  
-Pueden ser numéricas o alfabéticas.  
-**Ejemplo:** `<ol type="1">` para números o `<ol type="A">` para letras.  
-**Parámetro:** `start=n` para definir el inicio.
+1. Inicializar Git:
+   ```bash
+   git init
+   ```
+   ![git init](./img/git_init.png)
+
+2. Ver la rama actual:
+   ```bash
+   git branch
+   ```
+   ![git branch](./img/git_branch.png)
+
+3. Clonar un repositorio:
+   ```bash
+   git clone <URL-del-repositorio>
+   ```
+   ![git clone](./img/git_clone.png)
+
+4. Añadir archivos:
+   ```bash
+   git add .
+   ```
+   ![git add](./img/git_add.png)
+
+5. Hacer commit:
+   ```bash
+   git commit -m "Primer backup"
+   ```
+   ![git commit](./img/git_commit.png)
+
+6. Subir a GitHub:
+   ```bash
+   git push origin main
+   ```
+   ![git push](./img/git_push.png)
+
+[🔝 Volver al índice](#índice)
 
 ---
 
-## Etiquetas básicas de HTML
+### 🛠 Otros comandos útiles
 
-**Listas de definición:** Enumeran términos con sus definiciones.
-**Formadas por dos elementos:** el término y su definición.
+| Comando                                        | Descripción                                               |
+|-----------------------------------------------|-----------------------------------------------------------|
+| `git --version`                               | Ver la versión de Git                                     |
+| `git config --global username "tu_usuario"`   | Configurar tu nombre de usuario global en Git             |
+| `git config --global useremail "tu_email"`    | Configurar tu correo electrónico global en Git            |
 
-**Etiquetas usadas:**
-- dl: Define el inicio y fin de la lista (definition list).
-- dt: Representa el término (definition term).
-- dd: Contiene la definición del término (definition description).
+[🔝 Volver al índice](#índice)
 
-## Rutas de HTML
+---
 
-- **Ruta absoluta:** Incluye la ruta completa.  
-  **Ejemplo:** C:\html\img1.jpg
+## 📝 MARKDOWN
+
+Un archivo **Markdown** tiene la extensión `.md` y permite crear contenido visual estructurado mediante combinaciones de símbolos.
+
+![Ejemplo de README](./img/readme.png)
+
+### Encabezados
+
+```markdown
+# Encabezado nivel 1
+## Encabezado nivel 2
+### Encabezado nivel 3
+#### Encabezado nivel 4
+##### Encabezado nivel 5
+###### Encabezado nivel 6
+```
+
+![Encabezados](./img/encabezados.png)
+
+### Enlaces
+
+```markdown
+[Texto visible](ruta "Texto emergente")
+```
+
+### Imágenes
+
+```markdown
+![Texto alternativo](ruta "Texto emergente")
+```
+
+### HTML en Markdown
+
+Puedes insertar etiquetas HTML directamente:
+
+```html
+<p>Hola</p>
+```
+
+[🔝 Volver al índice](#índice)
+
+---
+
+## 🌐 HTML
+
+### 📄 Fichero HTML
+
+Un archivo HTML debe tener extensión `.html`, como `index.html`.
+
+![Archivo HTML](./img/ficherohtml.png)
+
+**Visual Studio Code** es la mejor herramienta para editar HTML por sus funciones y soporte.
+
+![Comparación](./img/comparacion.png)
+
+Código base de un archivo HTML:
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
   
-- **Ruta relativa:** Define la ruta desde la ubicación actual.  
-  **Ejemplo:** ..\imagenes\img2.jpg
-
-
-
-## Validación HTML
-
-Para validar un HTML, utiliza el siguiente enlace:  
-[validator.w3.org](https://validator.w3.org/ "Validador de HTML")
-
-
-## Elementos semánticos en html 5:
-
-`<span>`: permite agrupar contenido en línea.
-
-`<div>`: permite guardar otras etiquetas. 
-
-HTML semántico: Describe el contenido con un significado claro y estructurado.
-
-Elementos como span (contenido en línea) y div (contenido en bloque) no aportan valor semántico, solo estructuran sin indicar el tipo de contenido.
-
-Ventaja del HTML semántico: Proporciona información clara sobre el contenido, facilitando la comprensión y accesibilidad.
-
-Ejemplos de elementos semánticos:
-
-- **header** 
-- **footer**
-- **article** 
-- **section** 
-- **nav** 
-- **figure**.
-
-
-## Formulario
-El formulario es para recopilar datos del usuario y contiene varios elementos (nombre, password y etc).
-
-Cada formulario debe de tener atributo name, con lo cual se identifica el dato.
-Apertura y cierre: form
-
-Atributo común: 
-`<action>`: Define la url donde se enviará los datos
-`<method>`: especifica el método de envio de datos
-`<enctype>`: Define como se codifican los datos
-
-etiqueta *imput*: 
-	Se usa para crear diversos campos interactivos.
-
-### Etiqueta input
-
-La etiqueta input se utiliza para crear diversos tipos de campos interactivos en un formulario. Se pueden usar para entradas de texto, contraseñas, correos electrónicos, casillas de verificación, entre otros.
-
-### Atributos comunes de input:
-- **type**: Define el tipo de entrada que se debe mostrar (ej. text, password, email, etc.).
-- **id**: Identificador único para asociar etiquetas label con el campo de entrada.
-- **name**: Nombre del campo de entrada, utilizado al enviar el formulario para identificar el dato.
-- **value**: Valor predeterminado que tendrá el campo.
-- **placeholder**: Texto que aparece en el campo cuando está vacío, indicando el tipo de dato que se debe ingresar.
-- **required**: Indica que el campo debe completarse antes de enviar el formulario.
-- **disabled**: Desactiva el campo, evitando que el usuario interactúe con él.
-- **readonly**: Hace que el campo sea solo de lectura, evitando modificaciones.
-
-#### Ejemplo:
-
-```
-<input type="text" placeholder="Escribe tu nombre" />
-<input type="password" />
-<input type="email" />
-<input type="checkbox" />
+</body>
+</html>
 ```
 
-### Etiqueta `<type="radio">`
+Puedes generarlo escribiendo `html:5` y pulsando **Enter**.
 
-Se usa para los botones de opción, permite seleccionar solo una opción dentro de un grupo de opciones con el mismo atributo.
+[🔝 Volver al índice](#índice)
 
-```
-<form action="/enviar-datos" method="POST">
-  <fieldset>
-    <legend>Selecciona tu género musical favorito:</legend>
-    <input type="radio" name="pais" value="espana"> España<br>
-    <input type="radio" name="pais" value="egipto"> Egipto<br>
-    <input type="radio" name="pais" value="kazajistan"> Kazajistán<br>
-  </fieldset>
-</form>
-```
+---
 
-### Etiqueta `<type="checkbox">`
+### 🧩 Etiquetas Generales
 
-Se usa para los botones de verificación, permite seleccionar múltiples opciones dentro de un formulario.
-
-#### Ejemplo:
-```
-<form action="/enviar-datos" method="POST">
-  <fieldset>
-    <legend>Selecciona tus intereses:</legend>
-    <input type="checkbox" name="intereses" value="deportes"> Deportes<br>
-    <input type="checkbox" name="intereses" value="musica"> Música<br>
-    <input type="checkbox" name="intereses" value="lectura"> Lectura<br>
-  </fieldset>
-</form>
+```html
+<!DOCTYPE html>       <!-- Tipo de documento -->
+<html lang="es">      <!-- Idioma principal -->
+<head>                <!-- Información no visible para el usuario -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prueba</title> <!-- Título que aparece en el navegador -->
+</head>
+<body>                <!-- Contenido visible -->
+</body>
+</html>
 ```
 
-### Etiqueta **<textarea>**
+[🔝 Volver al índice](#índice)
 
-La etiqueta textarea se usa para crear áreas de texto donde los usuarios pueden ingresar múltiples líneas. Es especialmente útil para mensajes largos o descripciones detalladas.
+---
 
-Atributos comunes de `<textarea>`:
+### 🔤 Etiquetas para body
 
-- name: Especifica el nombre del control que se usará al enviar el formulario.
-- id: Identificador único del elemento para asociar con etiquetas <label>.
-- rows: Define el número de líneas visibles en el área de texto.
-- cols: Define el número de caracteres visibles en cada línea.
-- placeholder: Texto visible cuando el campo está vacío, proporcionando una pista sobre el dato esperado.
-- required: Indica que el campo debe completarse antes de enviar el formulario.
-- readonly: Hace que el área de texto sea solo de lectura.
-- disabled: Desactiva el campo, evitando la interacción del usuario.
+| Etiqueta                     | Descripción                                                           |
+|-----------------------------|------------------------------------------------------------------------|
+| `<p>`                       | Añade un párrafo                                                       |
+| `<img src="">`              | Muestra una imagen                                                     |
+| `<h1>` a `<h6>`             | Encabezados, del nivel 1 al 6                                          |
+| `<ul>` / `<ol>`             | Listas desordenadas / ordenadas                                       |
+| `<li>`                      | Elemento de lista                                                      |
+| `<a href="">`               | Inserta un enlace                                                      |
+| `<br>`                      | Salto de línea                                                         |
+| `<hr>`                      | Línea horizontal                                                       |
+| `<!-- Comentario -->`       | Comentario invisible en la web                                        |
+| `<b>`                       | Texto en negrita                                                       |
 
-#### Ejemplo
+[🔝 Volver al índice](#índice)
+
+---
+
+### 🧱 Bloques de contenido
+
+En HTML puedes estructurar tu contenido con bloques semánticos:
+
+```html
+<section>
+  <article>
+    <p>Texto de ejemplo</p>
+  </article>
+  <article>
+    <img src="../img/ejemplo.png" alt="Imagen de ejemplo">
+  </article>
+</section>
 ```
-<form action="/enviar-datos" method="POST">
-  <label for="comentario">Deja tu comentario:</label>
-  <textarea id="comentario" name="comentario" rows="4" cols="50" placeholder="Escribe tu comentario aquí..." required></textarea>
-</form>
-```
+
+- `<section>` agrupa contenido por secciones.
+- `<article>` representa contenido independiente y auto-contenido.
+
+[🔝 Volver al índice](#índice)
+
+---
+
+## 🎨 CSS
+
+<!-- por hacer  -->
+
+[🔝 Volver al índice](#índice)
