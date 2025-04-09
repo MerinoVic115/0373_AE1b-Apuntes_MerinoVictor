@@ -245,6 +245,127 @@ En HTML puedes estructurar tu contenido con bloques semánticos:
 
 ## 🎨 CSS
 
-<!-- por hacer  -->
+## CSS
+
+### ¿Qué es CSS?
+
+CSS (**Cascading Style Sheets**) es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en HTML.
+
+---
+
+### ¿Cómo funciona?
+
+CSS se basa en **selectores**, que son las etiquetas que definimos en el HTML. A partir de estos selectores podemos definir **reglas de estilo**.
+
+---
+
+### Sintaxis
+
+```css
+selector {
+    propiedad: valor;
+}
+```
+
+Ejemplo:
+
+```css
+h1 {
+    color: red;
+}
+```
+
+---
+
+### ¿Dónde se escribe el CSS?
+
+Hay tres formas:
+
+1. **Inline (en línea)**:
+```html
+<h1 style="color:red">Título</h1>
+```
+
+2. **Interno** (dentro de una etiqueta `<style>` en el `<head>` del HTML):
+```html
+<head>
+    <style>
+        h1 {
+            color: red;
+        }
+    </style>
+</head>
+```
+
+3. **Externo** (archivo `.css` vinculado al HTML):
+```html
+<head>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+```
+
+---
+
+### Comentarios en CSS
+
+```css
+/* Esto es un comentario */
+```
+
+---
+
+### Jerarquía HTML
+
+```html
+<div> <!-- padre -->
+
+    <h1></h1> <!-- hijo -->
+
+</div>
+```
+
+---
+
+### Tipos de selectores
+
+- **Etiqueta**: `h1 { color: red; }`
+- **Clase**: `.rojo { color: red; }`
+- **ID**: `#titulo { color: red; }`
+
+---
+
+### Propiedades básicas
+
+| Propiedad | Descripción |
+|----------|-------------|
+| `color` | Cambia el color del texto |
+| `background-color` | Cambia el color de fondo |
+| `font-size` | Tamaño de la fuente |
+| `font-family` | Tipo de letra |
+| `text-align` | Alineación del texto |
+| `width` / `height` | Ancho / alto del elemento |
+| `margin` | Margen exterior |
+| `padding` | Relleno interior |
+| `border` | Borde del elemento |
+
+---
+
+### Modelo de caja (Box model)
+
+Todo elemento HTML es una **caja** compuesta por:
+
+1. **Contenido**
+2. **Padding (relleno)**
+3. **Border (borde)**
+4. **Margin (margen externo)**
+
+Se representa así:
+
+```
+| Margin |
+| Border |
+| Padding |
+| Content |
+```
 
 [🔝 Volver al índice](#índice)
