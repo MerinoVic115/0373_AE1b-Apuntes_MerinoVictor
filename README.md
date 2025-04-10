@@ -32,6 +32,12 @@
   - [🎯 Diseño Web Adaptativo (Responsive)](#-diseño-web-adaptativo-responsive)
     - [📱 ¿Qué es el diseño responsive?](#-qué-es-el-diseño-responsive)
     - [🎚 Media Queries](#-media-queries)
+    - [🧱 Columnas flexibles (estructura adaptable)](#-columnas-flexibles-estructura-adaptable)
+    - [🔄 Detección de orientación de pantalla](#-detección-de-orientación-de-pantalla)
+    - [📏 Media Queries con múltiples condiciones](#-media-queries-con-múltiples-condiciones)
+    - [📐 Propiedades comunes en media queries](#-propiedades-comunes-en-media-queries)
+    - [📲 Enfoque Mobile First](#-enfoque-mobile-first)
+    - [🔍 Metaetiqueta Viewport](#-metaetiqueta-viewport)
 
 ---
 
@@ -401,4 +407,103 @@ Las *media queries* son condiciones en CSS que activan estilos solo si se cumple
 ```
 
 ---
+
+### 🧱 Columnas flexibles (estructura adaptable)
+Diseños basados en columnas que se ajustan al ancho de la pantalla:
+
+```css
+.column-1 { width: 100%; float: left; }
+.column-2 { width: 50%; float: left; }
+.column-3 { width: 33.33%; float: left; }
+.column-4 { width: 25%; float: left; }
+.column-5 { width: 20%; float: left; }
+.column-6 { width: 16.66%; float: left; }
+.column-75 { width: 75%; float: left; }
+
+@media only screen and (max-width: 600px) {
+  .column-2, .column-3 { width: 100%; }
+  .column-4 { width: 50%; }
+}
+```
+
+---
+
+### 🔄 Detección de orientación de pantalla
+
+```css
+@media (orientation: landscape) {
+  /* Estilos para pantallas en horizontal */
+}
+```
+
+---
+
+### 📏 Media Queries con múltiples condiciones
+Puedes combinar condiciones para controlar mejor el comportamiento:
+
+```css
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /* Estilos para móviles pequeños */
+}
+```
+
+---
+
+### 📐 Propiedades comunes en media queries
+
+- **width / height**: Tamaño visible del navegador
+- **device-width / device-height**: Tamaño del dispositivo
+- **orientation**: Vertical (portrait) u horizontal (landscape)
+- **resolution**: Calidad de pantalla (DPI o PPI)
+- **hover, pointer, aspect-ratio**: Capacidad táctil, tipo de puntero o proporción
+
+---
+
+### 📲 Enfoque Mobile First
+
+Se comienza con estilos para móviles y luego se adaptan a pantallas grandes.
+
+```css
+/* Estilos por defecto: móvil */
+[class*="col-"] {
+  width: 100%;
+}
+
+/* Para pantallas mayores a 768px */
+@media only screen and (min-width: 768px) {
+  .col-1 { width: 8.33%; }
+  .col-2 { width: 16.66%; }
+  .col-3 { width: 25%; }
+  .col-4 { width: 33.33%; }
+  .col-5 { width: 41.66%; }
+  .col-6 { width: 50%; }
+  .col-7 { width: 58.33%; }
+  .col-8 { width: 66.66%; }
+  .col-9 { width: 75%; }
+  .col-10 { width: 83.33%; }
+  .col-11 { width: 91.66%; }
+  .col-12 { width: 100%; }
+}
+```
+
+---
+
+### 🔍 Metaetiqueta Viewport
+
+Debe colocarse en el `<head>` del HTML para controlar cómo se escala la web en distintos dispositivos:
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+**Atributos comunes**:
+
+| Atributo         | Valor                        | Descripción                     |
+|------------------|------------------------------|---------------------------------|
+| `width`          | `device-width` o número      | Define el ancho visible         |
+| `height`         | `device-height` o número     | Altura visible                  |
+| `initial-scale`  | Número (ej. `1.0`)           | Nivel inicial de zoom           |
+| `user-scalable`  | `yes` / `no`                 | Permite o impide hacer zoom     |
+| `minimum-scale`  | Número                       | Mínimo nivel de zoom            |
+
 [🔝 Volver al índice](#índice)
