@@ -3,22 +3,35 @@
 ## Índice
 
 - [📘 Apuntes-Victor\_Merino\_Saceda\_ASIX1](#-apuntes-victor_merino_saceda_asix1)
-	- [Índice](#índice)
-	- [🐙 GITHUB](#-github)
-		- [Crear un repositorio](#crear-un-repositorio)
-		- [🔧 Comandos GIT](#-comandos-git)
-		- [🛠 Otros comandos útiles](#-otros-comandos-útiles)
-	- [📝 MARKDOWN](#-markdown)
-		- [Encabezados](#encabezados)
-		- [Enlaces](#enlaces)
-		- [Imágenes](#imágenes)
-		- [HTML en Markdown](#html-en-markdown)
-	- [🌐 HTML](#-html)
-		- [📄 Fichero HTML](#-fichero-html)
-		- [🧩 Etiquetas Generales](#-etiquetas-generales)
-		- [🔤 Etiquetas para body](#-etiquetas-para-body)
-		- [🧱 Bloques de contenido](#-bloques-de-contenido)
-	- [🎨 CSS](#-css)
+  - [Índice](#índice)
+  - [🐙 GITHUB](#-github)
+    - [Crear un repositorio](#crear-un-repositorio)
+    - [🔧 Comandos GIT](#-comandos-git)
+    - [🛠 Otros comandos útiles](#-otros-comandos-útiles)
+  - [📝 MARKDOWN](#-markdown)
+    - [Encabezados](#encabezados)
+    - [Enlaces](#enlaces)
+    - [Imágenes](#imágenes)
+    - [HTML en Markdown](#html-en-markdown)
+  - [🌐 HTML](#-html)
+    - [📄 Fichero HTML](#-fichero-html)
+    - [🧩 Etiquetas Generales](#-etiquetas-generales)
+    - [🔤 Etiquetas para body](#-etiquetas-para-body)
+    - [🧱 Bloques de contenido](#-bloques-de-contenido)
+  - [🎨 CSS](#-css)
+  - [CSS](#css)
+    - [¿Qué es CSS?](#qué-es-css)
+    - [¿Cómo funciona?](#cómo-funciona)
+    - [Sintaxis](#sintaxis)
+    - [¿Dónde se escribe el CSS?](#dónde-se-escribe-el-css)
+    - [Comentarios en CSS](#comentarios-en-css)
+    - [Jerarquía HTML](#jerarquía-html)
+    - [Tipos de selectores](#tipos-de-selectores)
+    - [Propiedades básicas](#propiedades-básicas)
+    - [Modelo de caja (Box model)](#modelo-de-caja-box-model)
+  - [🎯 Diseño Web Adaptativo (Responsive)](#-diseño-web-adaptativo-responsive)
+    - [📱 ¿Qué es el diseño responsive?](#-qué-es-el-diseño-responsive)
+    - [🎚 Media Queries](#-media-queries)
 
 ---
 
@@ -368,4 +381,24 @@ Se representa así:
 | Content |
 ```
 
+
+## 🎯 Diseño Web Adaptativo (Responsive)
+
+### 📱 ¿Qué es el diseño responsive?
+Es una técnica que permite que un sitio web se ajuste automáticamente a distintos tamaños de pantalla, garantizando una buena experiencia en móviles, tablets y computadoras.
+
+---
+
+### 🎚 Media Queries
+Las *media queries* son condiciones en CSS que activan estilos solo si se cumplen ciertos requisitos, como el ancho de la pantalla.
+
+```css
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+```
+
+---
 [🔝 Volver al índice](#índice)
